@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    {{>headerlinks}}
+    <title>Weather App</title>
+</head>
+<body>
+    {{>navbar}}
+    <!-------------Main Header------------->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--------------Right side dive--------------->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="images/about.png" alt="Irshad" class="img-fluid" title="Farooqui">
+                        </figure>
+                    </div>
+                    <!--------------Left side dive--------------->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcom to the Weather App</p>
+                        <h1>I am a <span class="text_color">Mern Stack Developer</span> Freelance</h1>
+                        <a href="/about"><button>About Me</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------Footer Code------------------------>
+    {{>footer}}
+</body>
+</html>
